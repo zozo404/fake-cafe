@@ -35,7 +35,7 @@
           <!-- acceuil -->
           <a
             key="Solutions"
-            to="/"
+            href="/"
             class="text-base lg:text-2xl font-medium text-white hover:text-indigo-50"
           >
             Accueil
@@ -43,7 +43,7 @@
           <!-- tarifs -->
           <a
             key="Pricing"
-            to="#price"
+            href="#price"
             class="text-base lg:text-2xl font-medium text-white hover:text-indigo-50"
           >
             Tarifs
@@ -51,7 +51,7 @@
           <!-- escape -->
           <a
             key="Company"
-            to="#escape"
+            href="#escape"
             class="text-base lg:text-2xl font-medium text-white hover:text-indigo-50"
           >
             Escape
@@ -59,7 +59,7 @@
           <!-- arcade -->
           <a
             key="Docs"
-            to="#arcade"
+            href="#arcade"
             class="text-base lg:text-2xl font-medium text-white hover:text-indigo-50"
           >
             Arcade
@@ -67,7 +67,7 @@
           <!-- culture -->
           <a
             key="Docs"
-            to="#culture"
+            href="#culture"
             class="text-base lg:text-2xl font-medium text-white hover:text-indigo-50"
           >
             Culture
