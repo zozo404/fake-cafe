@@ -31,7 +31,7 @@
       <div
         class="col-span-2 lg:col-span-1 lg:col-start-2 lg:row-start-1 flex flex-col items-center"
       >
-        <div class="mb-4 py-4 flex space-x-6">
+        <div class="mb-4 py-4 flex gap-4">
           <!-- acceuil -->
           <a
             key="Solutions"
@@ -47,6 +47,14 @@
             class="text-base lg:text-2xl font-medium text-white hover:text-indigo-50"
           >
             Tarifs
+          </a>
+          <!-- services -->
+          <a
+            key="Pricing"
+            href="#services"
+            class="text-base lg:text-2xl font-medium text-white hover:text-indigo-50"
+          >
+            Services
           </a>
           <!-- escape -->
           <a

@@ -1,72 +1,47 @@
 <template>
   <!-- This example requires Tailwind CSS v2.0+ -->
-  <div id="price" class="bg-gray-900">
+  <div id="services" class="bg-gray-900">
     <div class="pt-12 px-4 sm:px-6 lg:px-8 lg:pt-20">
       <div class="text-center">
         <p
           class="mt-2 text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl"
         >
-          NOS TARIFS
+          NOS SERVICES
         </p>
         <p
           class="mt-3 max-w-4xl mx-auto text-xl text-gray-300 sm:mt-5 sm:text-2xl"
         >
-          Une activité adapté à partir <span class="uppercase"> de 8 ans</span>.
-          Nous proposons des
-          <span class="uppercase">expériences</span>
-          variées en Réalité Virtuelle. Un catalogue de Jeux évolutif tous au
-          long de l'année. <br />Entre amis, en famille, entre collaborateur,
-          tentez l'expérience VR Café.
+          Notre bar-café, notre terrasse extérieure et nos 220 m2 nous
+          permettent d'acceuillir tout au long de l'année vos évènemens de
+          groupe . Nous organisons vos évènement sur mesure selon votre budget.
         </p>
       </div>
     </div>
-    <div class="mt-16 bg-white pb-12 lg:mt-20">
+    <div class="mt-16 bg-white pb-12 lg:mt-20 ">
       <div class="relative z-0">
         <div class="absolute inset-0 h-5/6 bg-gray-900 lg:h-2/3"></div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="relative lg:grid lg:grid-cols-7 gap-1">
+          <div class="relative lg:grid lg:grid-cols-7 gap-1 ">
             <div
               class="mx-auto max-w-md lg:mx-0 lg:max-w-none lg:col-start-1 lg:col-end-3 lg:row-start-2 lg:row-end-3"
             >
               <div
                 class="h-full flex flex-col rounded-lg shadow-lg overflow-hidden lg:rounded-none lg:rounded-l-lg"
               >
-                <div class="flex-1 flex flex-col">
-                  <div class="bg-white px-6 py-10">
-                    <div class="flex flex-col items-center">
+                <div class="flex-1 flex flex-col border-2 border-indigo-600">
+                  <div class="bg-white px-6 py-6">
+                    <div>
                       <h3
                         id="tier-hobby"
-                        class="text-center text-2xl font-medium text-gray-900"
+                        class="text-center text-2xl font-bold text-gray-900"
                       >
-                        Arcade VR
-                      </h3>
-                      <div class="mt-4 flex items-center justify-center">
-                        <span
-                          class="px-3 flex items-start text-6xl tracking-tight text-gray-900"
-                        >
-                          <span
-                            class="self-center text-xl font-medium text-gray-500 pr-2"
-                          >
-                            A partir de :
-                          </span>
-                          <span class="font-extrabold"> 18 </span>
-                          <span class="mt-2 mr-2 text-4xl font-medium">
-                            €
-                            <span class="text-xl font-medium text-gray-500">
-                              /pers
-                            </span>
-                          </span>
-                        </span>
-                      </div>
-                      <h3
-                        class="inline-flex px-4 py-1 rounded-full text-sm font-semibold tracking-wide uppercase bg-indigo-100 text-indigo-600 w-1/2 justify-center mt-6"
-                      >
-                        30 min
+                        <span class="uppercase">Anniversaires 🎂</span><br />
+                        EVJ - EVF
                       </h3>
                     </div>
                   </div>
                   <div
-                    class="flex-1 flex flex-col justify-between border-t-2 border-gray-100 p-6 bg-gray-50 sm:p-10 lg:p-6 xl:p-10"
+                    class="flex-1 flex flex-col justify-between border-t-2 border-gray-100 p-6 bg-gray-50 sm:p-10"
                   >
                     <ul role="list" class="space-y-4">
                       <li class="flex items-start">
@@ -89,7 +64,7 @@
                           </svg>
                         </div>
                         <p class="ml-3 text-base font-medium text-gray-500">
-                          Un choix d'environ 30 jeux
+                          Suprise Originale
                         </p>
                       </li>
 
@@ -113,7 +88,7 @@
                           </svg>
                         </div>
                         <p class="ml-3 text-base font-medium text-gray-500">
-                          Solo ou Multijoueurs
+                          Vidéos souvenirs
                         </p>
                       </li>
 
@@ -137,18 +112,18 @@
                           </svg>
                         </div>
                         <p class="ml-3 text-base font-medium text-gray-500">
-                          Casque HTC Vive Pro
+                          Activité Inédite
                         </p>
                       </li>
                     </ul>
                     <div class="mt-8">
                       <div class="rounded-lg shadow-md">
                         <a
-                          href="reservation-simply.html"
+                          href="#"
                           class="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-indigo-600 hover:bg-gray-50"
                           aria-describedby="tier-hobby"
                         >
-                          Réservez
+                          Nous contacter
                         </a>
                       </div>
                     </div>
@@ -160,53 +135,18 @@
               class="mt-10 max-w-lg mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-start-3 lg:col-end-6 lg:row-start-1 lg:row-end-4"
             >
               <div class="relative z-10 rounded-lg shadow-xl">
-                <div
-                  class="pointer-events-none absolute inset-0 rounded-lg border-2 border-indigo-600"
-                  aria-hidden="true"
-                ></div>
-                <div class="absolute inset-x-0 top-0 transform translate-y-px">
-                  <div class="flex justify-center transform -translate-y-1/2">
-                    <span
-                      class="inline-flex rounded-full bg-indigo-600 px-4 py-1 text-sm font-semibold tracking-wider uppercase text-white z-30"
-                    >
-                      Le plus populaire
-                    </span>
-                  </div>
-                </div>
-                <div class="bg-white rounded-t-lg px-6 pt-12 pb-10 bg-indigo-600 ">
-                  <div class="flex flex-col items-center ">
+                <!-- tarif et titre team building -->
+                <div class="bg-white rounded-t-lg px-6 pt-12 pb-10 bg-indigo-600">
+                  <div>
                     <h3
                       id="tier-growth"
-                      class="text-center text-3xl font-semibold text-gray-900 sm:-mx-6"
+                      class="text-center text-3xl font-bold text-white sm:-mx-6 uppercase "
                     >
-                      <div class="mb-2 text-white">Escape Game VR</div>
-                      <div class="text-white">Arcade VR</div>
-                    </h3>
-
-                    <div class="mt-4 flex items-center justify-center ">
-                      <span
-                        class="px-3 flex items-start text-6xl tracking-tight text-gray-900 sm:text-6xl"
-                      >
-                        <span
-                          class="self-center m text-2xl font-medium text-white pr-2"
-                        >
-                          A partir de :
-                        </span>
-                        <span class="font-extrabold"> 25 </span>
-                        <span class="mt-2 mr-2 text-4xl font-medium"> €</span>
-                      </span>
-                      <span class="text-2xl font-medium text-white">
-                        /pers
-                      </span>
-                    </div>
-                    <h3
-                      id="tier-standard"
-                      class="inline-flex px-4 py-1 rounded-full text-sm font-semibold tracking-wide uppercase bg-white text-indigo-600 w-1/2 justify-center mt-6"
-                    >
-                      1 h
+                      Team Building 🧍
                     </h3>
                   </div>
                 </div>
+                <!-- description team building -->
                 <div
                   class="border-t-2 border-gray-100 rounded-b-lg pt-10 pb-8 px-6 bg-gray-50 sm:px-10 sm:py-10"
                 >
@@ -231,7 +171,7 @@
                         </svg>
                       </div>
                       <p class="ml-3 text-base font-medium text-gray-500">
-                        Plus de 15 Escape Game VR
+                        Esprit d'equipe, cohésion
                       </p>
                     </li>
 
@@ -255,7 +195,7 @@
                         </svg>
                       </div>
                       <p class="ml-3 text-base font-medium text-gray-500">
-                        Immersion Totale
+                        Communication, Collaboration
                       </p>
                     </li>
 
@@ -279,7 +219,7 @@
                         </svg>
                       </div>
                       <p class="ml-3 text-base font-medium text-gray-500">
-                        En partenariat avec Ubisoft Escape Game
+                        Jusqu'a 7 joueurs dans la même jeu
                       </p>
                     </li>
 
@@ -303,7 +243,7 @@
                         </svg>
                       </div>
                       <p class="ml-3 text-base font-medium text-gray-500">
-                        Escape Game ARVI VR en exclusivité
+                        Découverte de la réalité virtuelle
                       </p>
                     </li>
 
@@ -327,18 +267,18 @@
                         </svg>
                       </div>
                       <p class="ml-3 text-base font-medium text-gray-500">
-                        Casque HTC Vive Pro
+                        Un bon moment à partager
                       </p>
                     </li>
                   </ul>
                   <div class="mt-10">
                     <div class="rounded-lg shadow-md">
                       <a
-                        href="reservation-simply.html"
+                        href="#footer"
                         class="block w-full text-center rounded-lg border border-transparent bg-indigo-600 px-6 py-4 text-xl leading-6 font-medium text-white hover:bg-indigo-700"
                         aria-describedby="tier-growth"
                       >
-                        Réserver
+                        Nous Contacter
                       </a>
                     </div>
                   </div>
@@ -349,39 +289,16 @@
               class="mt-10 mx-auto max-w-md lg:m-0 lg:max-w-none lg:col-start-6 lg:col-end-8 lg:row-start-2 lg:row-end-3"
             >
               <div
-                class="h-full flex flex-col rounded-lg shadow-lg overflow-hidden lg:rounded-none lg:rounded-r-lg"
+                class="flex flex-col rounded-lg shadow-lg overflow-hidden lg:rounded-r-lg"
               >
-                <div class="flex-1 flex flex-col">
+                <div class="flex-1 flex flex-col border-2 border-indigo-600">
                   <div class="bg-white px-6 py-10">
-                    <div class="flex flex-col items-center">
+                    <div>
                       <h3
                         id="tier-scale"
-                        class="text-center text-2xl font-medium text-gray-900"
+                        class="text-center text-2xl text-gray-900 uppercase font-bold"
                       >
-                        Culture VR
-                      </h3>
-                      <div class="mt-4 flex items-center justify-center">
-                        <span
-                          class="px-3 flex items-start text-6xl tracking-tight text-gray-900"
-                        >
-                          <span
-                            class="self-center pr-2 text-xl font-medium text-gray-500"
-                          >
-                            A partir de :
-                          </span>
-                          <span class="font-extrabold"> 5 </span>
-                          <span class="mt-2 mr-2 text-4xl font-medium">
-                            €
-                          </span>
-                        </span>
-                        <span class="text-xl font-medium text-gray-500">
-                          /pers
-                        </span>
-                      </div>
-                      <h3
-                        class="inline-flex px-4 py-1 rounded-full text-sm font-semibold tracking-wide uppercase bg-indigo-100 text-indigo-600 w-2/3 justify-center mt-6"
-                      >
-                        à partir de 5 min
+                        Carte Cadeau 🎁
                       </h3>
                     </div>
                   </div>
@@ -409,7 +326,7 @@
                           </svg>
                         </div>
                         <p class="ml-3 text-base font-medium text-gray-500">
-                          La culture autrement.
+                          Valable 1 ans
                         </p>
                       </li>
 
@@ -433,7 +350,7 @@
                           </svg>
                         </div>
                         <p class="ml-3 text-base font-medium text-gray-500">
-                          L'oeuvre de Monet
+                          Utillisable en plusieur fois
                         </p>
                       </li>
 
@@ -457,7 +374,7 @@
                           </svg>
                         </div>
                         <p class="ml-3 text-base font-medium text-gray-500">
-                          Une femme préhistorique
+                          Un cadeau Original
                         </p>
                       </li>
                     </ul>
@@ -485,7 +402,7 @@
 
 <script>
 export default {
-  name: 'BasePrices',
+  name: 'BaseServices',
 }
 </script>
 
