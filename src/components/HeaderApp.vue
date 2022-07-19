@@ -1,3 +1,7 @@
+<script setup>
+  import MenuIcon from './MenuIcon.vue';
+</script>
+
 <template>
   <!-- This example requires Tailwind CSS v2.0+ -->
   <header class="bg-gray-900 lg:h-40 w-full z-20">
