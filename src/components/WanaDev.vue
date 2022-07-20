@@ -4,9 +4,9 @@ import { ref } from 'vue'
 
 
 const myGame = ref([
-    { title: 'ESCAPE THE LOST PYRAMIDE', image: '/img/dark_corridor.jpg', alt:'image jeu'},
-    { title: 'ESCAPE THE LOST PYRAMIDE', image: '/img/dark_corridor.jpg', alt:'image jeu'},
-    { title: 'ESCAPE THE LOST PYRAMIDE', image: '/img/dark_corridor.jpg', alt:'image jeu'},
+    { title: 'AQUALIA', image: '/img/aqualia_environnement_logo_03.webp', alt:'image jeu'},
+    { title: 'AQUALIA', image: '/img/aqualia_environnement_logo_03.webp', alt:'image jeu'},
+    { title: 'AQUALIA', image: '/img/aqualia_environnement_logo_03.webp', alt:'image jeu'},
     ])
 
 

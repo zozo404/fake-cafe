@@ -1,39 +1,46 @@
+<script setup>
+
+import { ref } from 'vue'
+
+
+const myGame = ref([
+    { title: 'ESCAPE THE LOST PYRAMIDE', image: '/img/dark_corridor.jpg', alt:'image jeu'},
+    { title: 'ESCAPE THE LOST PYRAMIDE', image: '/img/dark_corridor.jpg', alt:'image jeu'},
+    { title: 'ESCAPE THE LOST PYRAMIDE', image: '/img/dark_corridor.jpg', alt:'image jeu'},
+    { title: 'ESCAPE THE LOST PYRAMIDE', image: '/img/dark_corridor.jpg', alt:'image jeu'},
+    { title: 'ESCAPE THE LOST PYRAMIDE', image: '/img/dark_corridor.jpg', alt:'image jeu'},
+    { title: 'ESCAPE THE LOST PYRAMIDE', image: '/img/dark_corridor.jpg', alt:'image jeu'},
+    { title: 'ESCAPE THE LOST PYRAMIDE', image: '/img/dark_corridor.jpg', alt:'image jeu'},
+    { title: 'ESCAPE THE LOST PYRAMIDE', image: '/img/dark_corridor.jpg', alt:'image jeu'},
+    { title: 'ESCAPE THE LOST PYRAMIDE', image: '/img/dark_corridor.jpg', alt:'image jeu'},
+    { title: 'ESCAPE THE LOST PYRAMIDE', image: '/img/dark_corridor.jpg', alt:'image jeu'},
+    { title: 'ESCAPE THE LOST PYRAMIDE', image: '/img/dark_corridor.jpg', alt:'image jeu'},
+    { title: 'ESCAPE THE LOST PYRAMIDE', image: '/img/dark_corridor.jpg', alt:'image jeu'},
+    ])
+
+
+</script>
+
 <template>
-  <div class="bg-gradient-to-r from-purple-500 via-indigo-500 to-cyan-500 flex justify-evenly">
+  <div class="bg-gradient-to-r from-purple-500 via-indigo-500 to-cyan-500 flex justify-evenly flex-wrap">
     <!-- card jeu ubisoft -->
-    
-    <a
-      href="#"
-      class="flex flex-col items-center py-2 px-3 text-sm font-medium text-center text-white rounded-lg "
+    <div
+      v-for="game in myGame"
+      :key="game"
+      class="max-w-sm rounded-lg my-2"
     >
-      <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">ESCAPE THE LOST PYRAMID</h5>
-      <img
-        src="public/img/dark_corridor.jpg"
-        class="rounded-lg"
+      <a
+        href="#"
+        class="flex flex-col items-center py-2 px-3 text-sm font-medium text-center text-white rounded-lg "
       >
-    </a>
-    <a
-      href="#"
-      class="flex flex-col items-center py-2 px-3 text-sm font-medium text-center text-white rounded-lg "
-    >
-      <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">ESCAPE THE LOST PYRAMID</h5>
-      <img
-        src="public/img/dark_corridor.jpg"
-        class="rounded-lg"
-      >
-    </a>
-    <a
-      href="#"
-      class="flex flex-col items-center py-2 px-3 text-sm font-medium text-center text-white rounded-lg "
-    >
-      <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">ESCAPE THE LOST PYRAMID</h5>
-      <img
-        src="public/img/dark_corridor.jpg"
-        class="rounded-lg"
-      >
-    </a>
-    
-        
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{{ game.title }}</h5>
+        <img
+          :src="game.image"
+          class="rounded-lg"
+          :alt="game.alt"
+        >
+      </a>
+    </div>
     <!-- fin card jeu ubisoft -->
   </div>
 </template>

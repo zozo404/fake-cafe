@@ -4,7 +4,7 @@ import Prices from '@/components/AppPrices.vue';
 import Services from '@/components/Services.vue';
 import TitleWithSubtitle from '@/components/TitleWithSubtitle.vue';
 import Title from '@/components/Title.vue';
-import WanaDev from '@/components/wanaDev.vue';
+import WanaDev from '@/components/WanaDev.vue';
 import Synthesys from '@/components/AppSynthesys.vue';
 import GameUbisoft from '@/components/GameUbisoft.vue';
 import ArviVR from '@/components/ArviVR.vue';
