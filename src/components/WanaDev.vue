@@ -13,7 +13,7 @@ const myGame = ref([
 </script>
 
 <template>
-  <div class="bg-gradient-to-r from-purple-500 via-indigo-500 to-cyan-500 flex justify-evenly">
+  <div class="bg-gradient-to-r from-purple-500 via-indigo-500 to-cyan-500 flex flex-wrap justify-evenly">
     <!-- card jeu ubisoft -->
     <div
       v-for="game in myGame"
