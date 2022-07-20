@@ -33,7 +33,7 @@
       <div
         class="col-span-2 lg:col-span-1 lg:col-start-2 lg:row-start-1 flex flex-col items-center"
       >
-        <div class="mb-4 py-4 flex gap-4">
+        <div class="mb-4 py-4 flex gap-2">
           <!-- acceuil -->
           <a
             key="Solutions"
