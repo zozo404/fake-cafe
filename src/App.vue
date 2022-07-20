@@ -8,6 +8,9 @@ import WanaDev from '@/components/WanaDev.vue';
 import Synthesys from '@/components/AppSynthesys.vue';
 import GameUbisoft from '@/components/GameUbisoft.vue';
 import ArviVR from '@/components/ArviVR.vue';
+import LucydReality from '@/components/LucydReality.vue';
+import AppPartenaires from './components/AppPartenaires.vue';
+import Footer from './components/Footer.vue';
 
 
 </script>
@@ -47,6 +50,10 @@ import ArviVR from '@/components/ArviVR.vue';
     subtitle="LUCID REALITY"
     title="EXPERIENCE CULTURE"
   />
+  <LucydReality />
+  <Title title="PARTENAIRES" />
+  <AppPartenaires />
+  <Footer />
 </template>
 
 
