@@ -11,9 +11,10 @@
           text-white text-center
         "
       >
-        <span v-if="exclu" class="inline-block border-white border-b-2 mb-8"
-          >EXCLUSIVITÉ</span
-        ><br v-if="exclu" />
+        <span
+          v-if="exclu"
+          class="inline-block border-white border-b-2 mb-8"
+        >EXCLUSIVITÉ</span><br v-if="exclu">
         {{ title }}
       </p>
     </div>

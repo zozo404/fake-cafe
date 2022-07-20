@@ -1,6 +1,9 @@
 <template>
   <!-- This example requires Tailwind CSS v2.0+ -->
-  <div id="services" class="bg-gray-900">
+  <div
+    id="services"
+    class="bg-gray-900"
+  >
     <div class="pt-12 px-4 sm:px-6 lg:px-8 lg:pt-20">
       <div class="text-center">
         <p
@@ -19,7 +22,7 @@
     </div>
     <div class="mt-16 bg-white pb-12 lg:mt-20 ">
       <div class="relative z-0">
-        <div class="absolute inset-0 h-5/6 bg-gray-900 lg:h-2/3"></div>
+        <div class="absolute inset-0 h-5/6 bg-gray-900 lg:h-2/3" />
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div class="relative lg:grid lg:grid-cols-7 gap-1 ">
             <div
@@ -35,7 +38,7 @@
                         id="tier-hobby"
                         class="text-center text-2xl font-bold text-gray-900"
                       >
-                        <span class="uppercase">Anniversaires 🎂</span><br />
+                        <span class="uppercase">Anniversaires 🎂</span><br>
                         EVJ - EVF
                       </h3>
                     </div>
@@ -43,7 +46,10 @@
                   <div
                     class="flex-1 flex flex-col justify-between border-t-2 border-gray-100 p-6 bg-gray-50 sm:p-10"
                   >
-                    <ul role="list" class="space-y-4">
+                    <ul
+                      role="list"
+                      class="space-y-4"
+                    >
                       <li class="flex items-start">
                         <div class="flex-shrink-0">
                           <!-- Heroicon name: outline/check -->
@@ -150,7 +156,10 @@
                 <div
                   class="border-t-2 border-gray-100 rounded-b-lg pt-10 pb-8 px-6 bg-gray-50 sm:px-10 sm:py-10"
                 >
-                  <ul role="list" class="space-y-4">
+                  <ul
+                    role="list"
+                    class="space-y-4"
+                  >
                     <li class="flex items-start">
                       <div class="flex-shrink-0">
                         <!-- Heroicon name: outline/check -->
@@ -305,7 +314,10 @@
                   <div
                     class="flex-1 flex flex-col justify-between border-t-2 border-gray-100 p-6 bg-gray-50 sm:p-10 lg:p-6 xl:p-10"
                   >
-                    <ul role="list" class="space-y-4">
+                    <ul
+                      role="list"
+                      class="space-y-4"
+                    >
                       <li class="flex items-start">
                         <div class="flex-shrink-0">
                           <!-- Heroicon name: outline/check -->

@@ -10,22 +10,24 @@
       aria-label="Top"
     >
       <!-- logo -->
-      <a href="/" class="flex justify-center lg:col-span-1 lg:h-full h-2/3">
+      <a
+        href="/"
+        class="flex justify-center lg:col-span-1 lg:h-full h-2/3"
+      >
         <span class="sr-only">Workflow</span>
         <img
           src="VRCAFE_LOGO_OK.webp"
           alt="logo vr café"
           class="h-full"
           sizes="xs:100vw"
-        />
+        >
       </a>
       <!-- bouton réserver -->
       <div class="flex justify-center lg:col-start-3">
         <a
           href="reservation-simply.html"
           class="inline-block bg-white py-2 px-4 border border-transparent rounded-md text-base lg:text-2xl font-medium text-indigo-600 hover:bg-indigo-50"
-          >Réserver</a
-        >
+        >Réserver</a>
       </div>
       <!-- navigation mobile -->
       <div
@@ -39,7 +41,7 @@
             class="text-base lg:text-2xl font-medium text-white hover:text-indigo-50"
           >
             Accueil
-            </a>
+          </a>
           <!-- tarifs -->
           <a
             key="Pricing"

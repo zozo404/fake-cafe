@@ -1,6 +1,9 @@
 <template>
   <!-- This example requires Tailwind CSS v2.0+ -->
-  <div id="price" class="bg-gray-900">
+  <div
+    id="price"
+    class="bg-gray-900"
+  >
     <div class="pt-12 px-4 sm:px-6 lg:px-8 lg:pt-20">
       <div class="text-center">
         <p
@@ -15,14 +18,14 @@
           Nous proposons des
           <span class="uppercase">expériences</span>
           variées en Réalité Virtuelle. Un catalogue de Jeux évolutif tous au
-          long de l'année. <br />Entre amis, en famille, entre collaborateur,
+          long de l'année. <br>Entre amis, en famille, entre collaborateur,
           tentez l'expérience VR Café.
         </p>
       </div>
     </div>
     <div class="mt-16 bg-white pb-12 lg:mt-20">
       <div class="relative z-0">
-        <div class="absolute inset-0 h-5/6 bg-gray-900 lg:h-2/3"></div>
+        <div class="absolute inset-0 h-5/6 bg-gray-900 lg:h-2/3" />
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div class="relative lg:grid lg:grid-cols-7 gap-1">
             <div
@@ -68,7 +71,10 @@
                   <div
                     class="flex-1 flex flex-col justify-between border-t-2 border-gray-100 p-6 bg-gray-50 sm:p-10 lg:p-6 xl:p-10"
                   >
-                    <ul role="list" class="space-y-4">
+                    <ul
+                      role="list"
+                      class="space-y-4"
+                    >
                       <li class="flex items-start">
                         <div class="flex-shrink-0">
                           <!-- Heroicon name: outline/check -->
@@ -163,7 +169,7 @@
                 <div
                   class="pointer-events-none absolute inset-0 rounded-lg border-2 border-indigo-600"
                   aria-hidden="true"
-                ></div>
+                />
                 <div class="absolute inset-x-0 top-0 transform translate-y-px">
                   <div class="flex justify-center transform -translate-y-1/2">
                     <span
@@ -179,8 +185,12 @@
                       id="tier-growth"
                       class="text-center text-3xl font-semibold text-gray-900 sm:-mx-6"
                     >
-                      <div class="mb-2 text-white">Escape Game VR</div>
-                      <div class="text-white">Arcade VR</div>
+                      <div class="mb-2 text-white">
+                        Escape Game VR
+                      </div>
+                      <div class="text-white">
+                        Arcade VR
+                      </div>
                     </h3>
 
                     <div class="mt-4 flex items-center justify-center ">
@@ -210,7 +220,10 @@
                 <div
                   class="border-t-2 border-gray-100 rounded-b-lg pt-10 pb-8 px-6 bg-gray-50 sm:px-10 sm:py-10"
                 >
-                  <ul role="list" class="space-y-4">
+                  <ul
+                    role="list"
+                    class="space-y-4"
+                  >
                     <li class="flex items-start">
                       <div class="flex-shrink-0">
                         <!-- Heroicon name: outline/check -->
@@ -388,7 +401,10 @@
                   <div
                     class="flex-1 flex flex-col justify-between border-t-2 border-gray-100 p-6 bg-gray-50 sm:p-10 lg:p-6 xl:p-10"
                   >
-                    <ul role="list" class="space-y-4">
+                    <ul
+                      role="list"
+                      class="space-y-4"
+                    >
                       <li class="flex items-start">
                         <div class="flex-shrink-0">
                           <!-- Heroicon name: outline/check -->
@@ -483,10 +499,5 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: 'BasePrices',
-}
-</script>
 
 <style></style>
