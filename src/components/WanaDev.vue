@@ -24,7 +24,7 @@ const myGame = ref([
         href="#"
         class="flex flex-col items-center py-2 px-3 text-sm font-medium text-center text-white rounded-lg "
       >
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{{ game.title }}</h5>
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">{{ game.title }}</h5>
         <img
           :src="game.image"
           class="rounded-lg"
