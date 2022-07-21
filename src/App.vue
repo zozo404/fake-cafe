@@ -11,12 +11,8 @@ import ArviVR from '@/components/ArviVR.vue';
 import LucydReality from '@/components/LucydReality.vue';
 import AppPartenaires from './components/AppPartenaires.vue';
 import Footer from './components/Footer.vue';
-import CMS from 'netlify-cms-app';
 
-// Initialize the CMS object
-CMS.init()
-// Now the registry is available via the CMS object.
-CMS.registerPreviewTemplate('my-template', MyTemplate)
+
 </script>
 <template>
   <div>
